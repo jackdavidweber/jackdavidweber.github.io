@@ -38,6 +38,7 @@
     "node": ">=v0.4.8"
   },
   "dependencies": {
+    "serialize-javascript": "^4.0.0",
     "vanilla-rss": "^1.4.0"
   },
   "devDependencies": {
