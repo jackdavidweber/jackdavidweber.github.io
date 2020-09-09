@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "serialize-javascript": "^4.0.0"
+    "randombytes": "2.1.0",
+    "safe-buffer": "5.2.1",
+    "serialize-javascript": "4.0.0"
   },
   "scripts": {
     "start": "node index.js"
   }
-
 }
