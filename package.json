@@ -4,6 +4,11 @@
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "name": "jackdavidweber",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "yarn": "1.22.5"
   }
-
 }
