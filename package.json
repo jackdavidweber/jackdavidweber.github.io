@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "serialize-javascript": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
+
 }
