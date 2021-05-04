@@ -63,3 +63,17 @@ jQuery(document).ready(function($) {
     );
 
 });
+
+
+// Make sure that service worker is supported
+if('serviceWorker' in navigator){
+    console.log('Service Worker Supported')
+
+    // Register Service Worker
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+            .register('../../sw_cached_site.js')
+            .then(reg => console.log('Service Worker Registered'))
+            .catch(err => console.log(`Service Worker: Error: ${err}`))
+    })    
+}
